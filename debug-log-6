@@ -1,0 +1,14 @@
+//What is the function to set the parameters of the canvas again?
+//size(width, height);
+
+//When I run the program no circles are visible, even though I have if statements...
+//Oh! I forgot to add ellipse functions to the draw function
+
+//How do I make sure the ball stops when it approaches the edge of the canvas?
+//I need to reverse its position. I need to create a while loop.
+//Well, actually I don't need a while loop since the draw function runs continuously.
+//An if statement will suffice. I can multiply the value of the incrementing x and y variables by negative one.
+//This makes every value get subtracted by a negative value.
+
+//When I change the number of xSpeed and ySpeed from -1 to a larger number the ellipses go faster until they are invisible.
+//I need to change the variable of xSpeed2 and ySpeed2 to get the ellipses to move independently of one another.
